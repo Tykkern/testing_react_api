@@ -5,11 +5,12 @@ import "./ProductCard.module.css";
 function ProductCard({ product }) {
   return (
     <div className="product-card">
+      <StarRating rating={product.rating.rate} />
       <Link to={`/product/${product.id}`} className="title-link">
         <h3>{product.title}</h3>
       </Link>
 
-      <StarRating rating={product.rating.rate} />
+      
     </div>
   );
 }
