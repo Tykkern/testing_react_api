@@ -1,0 +1,14 @@
+.stars {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  color: #f39c12;
+  margin: 8px 0;
+}
+
+.filled {
+  color: #f39c12;
+}
+
+.empty {
+  color: #ddd;
+}

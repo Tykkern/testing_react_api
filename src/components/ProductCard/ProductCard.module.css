@@ -1,0 +1,30 @@
+
+.product-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  background: white;
+  text-align: center;
+  transition: transform 0.12s, box-shadow 0.12s;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.title-link {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.title-link:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin: 0 0 12px;
+  min-height: 2.8em; 
+}
